@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(10 25 69);
+  color: white;
+}
+
+.warper {
+  width: 50vh;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .warper {
+    width: 300px;
+  }
+}
